@@ -1,0 +1,28 @@
+.background    { background: url("https://upload.wikimedia.org/wikipedia/commons/1/16/Appearance_of_sky_for_weather_forecast,_Dhaka,_Bangladesh.JPG");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: url("http://www.sea-of-memes.com/LetsCode84/lava.gif"); }
+.wall          { background: url("http://img23.imageshack.us/img23/7149/stonewallmoss.jpg");   }
+.villian	   { background: url("http://img2.wikia.nocookie.net/__cb20100216031344/zelda/images/a/ae/Buzzblob_(Link's_Awakening).gif");}
+.platform	   { background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSIca4Jjuoqmb4ted2PlmHJ1SpkpDeR3Eb4HJRexyM2P9zrlsiw");}
+
+.actor  { position: absolute;  }
+.coin   { background: url("http://themushroomkingdom.net/images/ani/smb3/ani_smb3coin.gif"); }
+.player { background: url("http://www.buntyandtheboffin.co.uk/blog/wp-content/themes/smw/images/sprites/mario_small_fast_ani.gif"); }
+.spike { background: url("http://i1377.photobucket.com/albums/ah65/tdwalsh94/spike_up_zps4zhtkzem.png"); }
+.spikeDown { background: url("http://i1377.photobucket.com/albums/ah65/tdwalsh94/spike_down_zpscskmjdwx.png"); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: url("http://www.shrunkenheadman.com/images/forum/mysmilies/15px_skull.gif");
+}
+.won .player {
+  background: url("http://img3.wikia.nocookie.net/__cb20120730002404/dungeonkeeper/images/2/2e/Sparkle.gif");
+}
